@@ -1,0 +1,44 @@
+
+/* 轮播 */
+.carousel{
+    width:100%;
+    height: 1.5rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.02rem;
+}
+.carousel .am-wingblank .am-carousel .slider-frame .slider-list{
+    box-shadow: 0.02rem 0.02rem 0.02rem #cecece;
+}
+/* 分类列表 */
+.list{
+    width: 3.94rem;
+    height: 0.7rem;
+    padding: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.list .listLi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 0.6rem;
+    height: 0.7rem;
+}
+.list .listImg{
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    border:1px solid #cecece;
+    box-shadow: 0.04rem 0.04rem 0.1rem rgba(231,231,231,0.8);
+}
+.list .listp{
+    width: 100%;
+    height: 0.16rem;
+    line-height: 0.16rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #101001;
+}
+

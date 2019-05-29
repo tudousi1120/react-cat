@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.my-content{
+    margin-bottom: 0.8rem;
+}
+/* 个人中心 */
+
+
+
+
+/* 收藏 */
+
+
+
+
+/* 订单 */
+.order-select{
+    width: 100%;
+    height: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.order-select>.order-sp{
+    display: block;
+    width: 1.8rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.16rem;
+    font-weight: 520;
+    color: #333;
+    background: #e8e8e8;
+    box-shadow: 0.02rem 0.02rem 0.03rem #cecece;
+}
+.order-select>.order-sp:nth-of-type(1){
+    border-radius: 0.1rem  0  0 0.1rem;
+}
+.order-select>.order-sp:nth-of-type(2){
+    border-radius:0 0.1rem 0.1rem 0;
+}
+.order-select .selected{
+    background: #10f;
+    color: #f00;
+}
+.order-list{
+    padding: 0.1rem;
+}
+
+
+/* olist */
+.my-show{
+    width: 100%;
+    background: #fff;
+    padding-top: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.my-list{
+    width: 3.84rem;
+    height: 1.2rem;
+    padding-left: 0.1rem;
+    margin-bottom: 0.12rem;
+    background: #e8e8e8;
+    box-shadow: 0.02rem 0.02rem 0.03rem #cecece;
+    border-radius: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 点击选择 */
+.myselect{
+    border:2px dashed #1e0;
+}
+
+.my-list-l{
+    width: 1rem;
+    height: 1rem;
+    display: block;
+}
+.my-list-r{
+    width: 2.6rem;
+    height: 1rem;
+    padding-left: 0.1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.my-list-r>h3{
+    width: 1rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.16rem;
+    font-weight: 520;
+    color: #000;
+}
+.my-list-r>span{
+    width: 1.8rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.14rem;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.my-list-r .my-list-price{
+    width: 1rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.12rem;
+    color: #333;
+}
+.my-list-r .my-list-price>span{
+    font-size: 0.18rem;
+    color: #f00;
+}
+.my-list-r .my-list-step{
+    width: 0.8rem;
+    height: 0.2rem;
+    background: #fff;
+    position: relative;
+    position: absolute;
+    right: 0.1rem;
+    top:0rem;
+    box-shadow: 0.02rem 0.02rem 0.02rem #e8eee8;
+    border-radius:0.06rem;
+
+}
+.my-list-step>input{
+    width: 0.3rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    border: 1px solid #cecece;
+    position:absolute;
+    left: 0.24rem;
+    top: 0;
+}
+.my-list-step>span{
+    width: 0.2rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    font-size: 0.16rem;
+    text-align: center;
+    display: block;
+    border: 1px solid #cecece;
+    position: absolute;
+}
+.my-list-step .my-list-step-l{
+   left: 0;
+}
+.my-list-step .my-list-step-r{
+   right: 0;
+}
+.my-list-r .my-price{
+    width: 1rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.12rem;
+    font-weight: 520;
+    color: #000;
+    position: absolute;
+    right: 0.04rem;
+    bottom: 0.06rem;
+}
+.my-list-r .my-price>span{
+    font-size: 0.18rem;
+    color: #f00;
+}
+
+/* 收货地址 */

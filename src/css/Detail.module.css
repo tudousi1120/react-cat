@@ -1,0 +1,223 @@
+
+.content{
+    width:4.14rem;
+    height: 100%;
+    background:#e8e8e8;
+}
+/* 头部 */
+.header{
+    width: 100%;
+    height: 0.4rem;
+    background: #000;
+    position:fixed;
+    left:0;
+    top:0;
+    position: relative;
+}
+.headr .headerLeft{
+    display: block;
+    width: 0.3rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.2rem;
+    color: #101010;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 0.1rem;
+    top:0.05rem;
+    z-index: 10;
+}
+
+.header .headerMid{
+    width: 1.8rem;
+    display: flex;
+    position: absolute;
+    left: 1.2rem;
+    top:0.1rem;
+}
+
+.mid{
+    width: 0.5rem;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+}
+
+
+
+.carousel{
+    width:100%;
+    height: 3rem;
+    margin-top:0.4rem;
+    padding-bottom: 0.1rem
+}
+
+/* 商品信息 */
+.info{
+    width:3.94rem;
+    height:0.9rem;
+    padding: 0.1rem;
+    background: #fff;
+}
+.info .infoPrice{
+    width: 100%;
+    height: 0.3rem;
+    position: relative;
+}
+.priceLeft{
+    width: 1.2rem;
+    line-height: 0.16rem;
+    text-align: left;
+    font-size: 0.12rem;
+    color: #333;
+    position: absolute;
+    left: 0;
+    top:0.05rem;
+}
+.priceLeft span{
+    font-size: 0.2rem;
+    color: #f00;
+}
+.priceMid{
+    width: 1.1rem;
+    line-height: 0.16rem;
+    text-align: left;
+    font-size: 0.12rem;
+    color: #333;
+    position: absolute;
+    left: 1.3rem;
+    top:0.05rem;
+}
+.priceRight{
+    width: 0.8rem;
+    line-height: 0.16rem;
+    text-align: left;
+    font-size: 0.12rem;
+    color: #333;
+    position: absolute;
+    right: 0;
+    top:0.05rem;
+}
+.infop{
+    width: 100%;
+    height: 0.4rem;
+    padding: 0.1rem 0;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.14rem;
+}
+.iconn{
+    display: inline-block;
+    width: 0.2rem;
+    height: 0.2rem;
+    margin-top: 0.05rem;
+    border-radius: 0.05rem;
+    background: #0f0;
+}
+
+.shop{
+    width: 100%;
+    height: 0.6rem;
+    position: relative;
+    margin: 0.1rem 0;
+    background: #fff;
+}
+.shop .shopIcon{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: #cecece;
+    display: block;
+    position: absolute;
+    left: 0.12rem;
+    top:0.1rem;
+}
+.shop .shopInfo{
+    width: 1.2rem;
+    height: 0.4rem;
+    position: absolute;
+    left: 0.7rem;
+    top:0.1rem;
+}
+.shop .shopInfo h3{
+    width: 100%;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.14rem;
+    color: #000;
+}
+.shop .shopInfo p{
+    width: 100%;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    text-align: left;
+    font-size: 0.12rem;
+    color: #666
+}
+.showImg{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.1rem 0;
+    background: #fff;
+}
+.showImg img{
+    width:3.6rem;
+    height: 2.6rem;
+    margin-bottom: 0.05rem;
+}
+.footer{
+    width: 3.94rem;
+    height: 0.3rem;
+    padding: 0.1rem 0.1rem 0.06rem;
+    position: fixed;
+    left: 0;
+    bottom: 0rem;
+    background: #fff;
+    display: flex;
+}
+.fooLeft{
+    width: 1.5rem;
+    height: 0.3rem;
+    display: flex;
+    justify-content: space-around;
+}
+.fooLeft1{
+    width: 0.6rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.16rem;
+}
+
+
+.fooRight{
+    width: 2.4rem;
+    height: 0.3rem;
+    display: flex;
+}
+.fooRight1{
+    width: 1.2rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    background: #f1c417fa;
+    border-radius: 0.06rem 0 0 0.06rem;
+}
+.fooRight2{
+    width: 1.2rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    background: #000;
+    border-radius:0 0.06rem 0.06rem 0;
+}

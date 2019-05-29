@@ -1,0 +1,76 @@
+
+/* 头部 */
+.head{
+    width: 4.14rem;
+    height: 0.9rem;
+    background: #000000 60%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.head  .head-search{
+    width:3.94rem;
+    height: 0.3rem;
+    padding: 0.1rem;
+    position: relative;
+}
+.head  .head-search input{
+    width: 3.7rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    text-align: center;
+    font-size: 0.16rem;
+    color: #cecece;
+    background: #fff;
+    border:0.01rem solid #000000 60%;
+    border-radius: 0.2rem;
+}
+.head  .head-search .icon{
+    width: 0.2rem;
+    height: 0.2rem;
+    position: absolute;
+    right: 0.08rem;
+    top:0.18rem;
+}
+.head  .head-search .iconfont{
+    font-size: 0.26rem;
+    line-height: 0.2rem;
+    color: #fff;
+}
+.head .nav-link{
+    width:4.14rem;
+    height: 0.3rem;
+    padding-top:0.05rem;
+    padding-bottom:0.16rem;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link::-webkit-scrollbar { 
+    width: 0 !important 
+}
+.head .nav-link .nav-link1{
+    width: 0.84rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    font-size: 0.14rem;
+    color: #fff;
+    flex-shrink: 0;
+   
+}
+
+.head .nav-link .indexactive{
+    font-size: 0.18rem;
+    font-weight: 550;
+    text-align:cencer;
+    color: #caff00cc;
+}
+
+.head-content{
+    margin-top:0.9rem;
+}
